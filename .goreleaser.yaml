@@ -57,6 +57,6 @@ scoops:
   description: "Description of the gracefulturnip project"
   license: MIT
   repository:
-    owner: taylormonacelli
+    owner: gkwa
     name: scoop-bucket
     branch: master
