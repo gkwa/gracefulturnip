@@ -131,7 +131,10 @@ func Clean() error {
 
 func getSourceFiles(dir string, exts ...string) ([]string, error) {
 	if len(exts) == 0 {
-		exts = []string{".go"}
+		exts = []string{
+			".go",
+			".cue",
+		}
 	}
 	var sources []string
 	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {

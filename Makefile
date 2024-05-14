@@ -1,6 +1,6 @@
 BIN := gracefulturnip
 
-SRC := $(wildcard *.go **/*.go)
+SRC := $(wildcard *.go **/*.go *.cue **/*.cue)
 
 DATE := $(shell date +"%Y-%m-%dT%H:%M:%SZ")
 GOVERSION := $(shell go version)
