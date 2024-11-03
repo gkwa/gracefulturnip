@@ -1,6 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": ["config:best-practices", ":dependencyDashboard"],
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
   "packageRules": [
     {
       "matchDepTypes": ["*"],
@@ -10,5 +12,6 @@
       "requiredStatusChecks": null
     }
   ],
-  "platformAutomerge": true
+  "platformAutomerge": true,
+  "postUpdateOptions": ["gomodTidyE", "gomodMassage", "gomodUpdateImportPaths"]
 }
