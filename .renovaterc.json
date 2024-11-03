@@ -9,7 +9,7 @@
       "automerge": true,
       "automergeType": "branch",
       "automergeStrategy": "fast-forward",
-      "requiredStatusChecks": null
+      "ignoreTests": true
     }
   ],
   "platformAutomerge": true,
