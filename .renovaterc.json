@@ -5,11 +5,12 @@
   "prConcurrentLimit": 0,
   "packageRules": [
     {
-      "matchDepTypes": ["*"],
       "automerge": true,
+      "ignoreTests": true,
       "automergeType": "branch",
-      "automergeStrategy": "fast-forward",
-      "ignoreTests": true
+      "automergeStrategy": "merge-commit",
+      "matchDepTypes": ["*"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest", "replacement"]
     }
   ],
   "platformAutomerge": true,
