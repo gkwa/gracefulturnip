@@ -5,7 +5,7 @@ go 1.23.0
 toolchain go1.24.4
 
 require (
-	cuelang.org/go v0.13.0
+	cuelang.org/go v0.13.1
 	github.com/go-git/go-git/v5 v5.16.2
 	github.com/magefile/mage v1.15.0
 	github.com/spf13/cobra v1.9.1
@@ -45,7 +45,6 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/crypto v0.37.0 // indirect
 	golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c // indirect
-	golang.org/x/mod v0.24.0 // indirect
 	golang.org/x/net v0.39.0 // indirect
 	golang.org/x/sys v0.32.0 // indirect
 	golang.org/x/text v0.24.0 // indirect
